@@ -8,3 +8,4 @@ jobs:
       - run: echo "Juan Pablo Tellez Becerra"
       - run: node --version
       - run: echo "734071"
+      - run: docker --version
