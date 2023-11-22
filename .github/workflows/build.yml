@@ -4,11 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps:
-      - run: node --version
-      - run: npm --version
       - uses: actions/checkout@v3
-      - run: node app.js
-      - run: |
-          echo "Juan Pablo Tellez Becerra"
-          echo "$(node --version)"
-          echo "734071"
+      - run: echo "Juan Pablo Tellez Becerra"
+      - run: node --version
+      - run: echo "734071"
